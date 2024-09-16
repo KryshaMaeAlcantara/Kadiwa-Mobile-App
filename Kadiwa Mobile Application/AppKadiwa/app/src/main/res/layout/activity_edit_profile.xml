@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".EditActivity">
+
+    <ImageView
+        android:id="@+id/image_view_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/placeholder_image"
+        android:scaleType="centerCrop"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/circle_background"
+        android:contentDescription="Insert Image" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_view_profile"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/edit_text_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_name"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/edit_text_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_address"
+        android:hint="Birthday"
+        android:focusable="false"
+        android:onClick="onBirthdayEditTextClicked" />
+
+
+    <EditText
+        android:id="@+id/edit_text_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_birthday"
+        android:hint="Gender" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_gender"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="319dp"
+        android:text="save" />
+
+</RelativeLayout>

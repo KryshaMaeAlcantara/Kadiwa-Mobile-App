@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "617844453947",
+    "firebase_url": "https://app-kadiwa-default-rtdb.firebaseio.com",
+    "project_id": "app-kadiwa",
+    "storage_bucket": "app-kadiwa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617844453947:android:3c43e673bcc6074563221e",
+        "android_client_info": {
+          "package_name": "com.example.appkadiwa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617844453947-uqqbl3i4ofih3uc71rrrgr6djvipiudn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtuAJ9RPiJceIaygFxHBGjGuGGPLWMv5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617844453947-uqqbl3i4ofih3uc71rrrgr6djvipiudn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

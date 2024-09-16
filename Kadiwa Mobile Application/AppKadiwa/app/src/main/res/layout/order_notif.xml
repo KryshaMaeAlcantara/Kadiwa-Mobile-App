@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+    <!-- Circle Image -->
+    <ImageView
+        android:id="@+id/circleImage"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:src="@drawable/default_profile_image" />
+
+    <!-- Vertical LinearLayout for the right section -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Order Successful -->
+        <TextView
+            android:id="@+id/tvOrderSuccessful"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Successful"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="15dp"/>
+
+        <!-- Order Id -->
+        <TextView
+            android:id="@+id/tvOrderId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11dp" />
+
+        <!-- Timestamp -->
+        <TextView
+            android:id="@+id/tvTimestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11dp" />
+
+        <!-- Price -->
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="11dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+    </LinearLayout>
+</LinearLayout>
